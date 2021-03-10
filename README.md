@@ -90,5 +90,6 @@ export default {
 }
 </script>
 ```
-the prop 'froze' is an array as '[top,right,bottom,left]' to set which row/col want to be frozen,you should set 0 if you do not want a row/col to be frozen.
-ElFrozeTable outer container element (like '#app' in demo above) must have  width and height,and should not set attribute 'height' in ElTable.
+### the prop 'froze' is an array as '[top,right,bottom,left]' to set which row/col want to be frozen,you should set 0 if you do not want a row/col to be frozen.
+
+### ElFrozeTable outer container element (like '#app' in demo above) must have width and height,and should not set attribute 'height' in ElTable.
